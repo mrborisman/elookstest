@@ -1,0 +1,58 @@
+/* GLOBAL */
+* {
+	margin:0;
+	padding:0;
+}
+.fond
+{
+	display: block;
+	width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#TopBar{
+	background-color : #21496b;
+	//orange be3e18
+	//background : url("/fonds/noir40.png") repeat scroll 0 0 transparent;
+	height : 50px;
+	width : 100%;
+
+}
+img {
+	border: 0;
+}
+/* TYPOGRAPHY */
+body, h1, h2, h3, h4, h5, h6, p, a {
+	background-color:inherit;
+	color: #b3b3b3;
+	font-size: 12px;
+	font-family: helvetica, arial, tahoma, verdana, sans-serif;
+}
+/* LINKS */
+a, a:link, a:hover {
+	text-decoration:underline;
+	color:inherit;
+	cursor:pointer;
+}
+a:link a:visited a:hover, a:active {
+	color:inherit;
+	text-decoration:none;
+}
+/* MISC */
+.clear {
+	clear: both;
+}
+.borderTopLeft {
+	border-top: 1px solid #787878;
+	border-left: 1px solid #787878;
+}
+.borderBottomRight {
+	border-right: 1px solid #787878;
+	border-bottom: 1px solid #787878;
+}
+.borderRight {
+	border-right: 1px solid #787878;
+}
+.borderRightDotted {
+	border-right: 1px dotted #787878;
+}
